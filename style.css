@@ -1,0 +1,109 @@
+body{
+    box-sizing: border-box;
+    background-color:#ffb6c1;
+    font-family: Open Sans;
+    letter-spacing: normal;
+    border:30px solid #fff8dc;
+    word-wrap:break-word;
+}
+header p, h1,h2{
+    text-transform: uppercase;
+    font-family: Open Sans;
+}
+section{
+    margin: 0 auto 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+div{
+    display:inline-block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 30px 15px;
+    cursor: pointer;
+}
+header{
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    vertical-align: middle;
+}
+header p{
+    color:#778899;
+    line-height: 2px;
+}
+h1{
+    color: #1e90ff;
+}
+.brilliant{
+    background-color:#1e90ff;
+    color: #ffffff;
+}
+div span{
+    margin: 10% 0;
+    width: 100%;
+    padding: 0;
+}
+.anchor:hover{
+    background-color:#808080;
+    color: #ffffff;
+}  
+.anchor_inactive{
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/anchor_active.png);
+    display: inline-block;
+    cursor: pointer;
+}
+.anchor_inactive:hover{    
+    background-image: url(./images/anchor_inactive.png);
+}
+.color_p{
+    color: #ffffff;
+}
+.brilliant:hover{
+    background-color:#808080;
+    color: #000;
+}
+.brilliant_inactive{
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/brilliant_active.png);
+    display: inline-block;
+    cursor: pointer;
+}
+.brilliant_inactive:hover{    
+    background-image: url(./images/brilliant_inactive.png);
+}
+.points:hover{
+    background-color:#808080;
+    color: #ffffff;
+}
+.points_inactive{
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/points_active.png);
+    display: inline-block;
+    cursor: pointer;
+}
+.points_inactive:hover{    
+    background-image: url(./images/points_inactive.png);
+}
+.monitor:hover{
+    background-color:#808080;
+    color: #ffffff;
+}
+.monitor_inactive{
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/monitor_active.png);
+    display: inline-block;
+    cursor: pointer;
+}
+.monitor_inactive:hover{    
+    background-image: url(./images/monitor_inactive.png);
+}
